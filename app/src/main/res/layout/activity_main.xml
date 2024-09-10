@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgview"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/img_3"
+        android:background="@drawable/circular_image"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <EditText
+        android:id="@+id/txtusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B3E5FC"
+        android:textSize="18sp"
+        android:backgroundTint="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:ems="12"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/txtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B3E5FC"
+        android:textSize="18sp"
+        android:backgroundTint="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"
+        android:ems="12"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#03A9F4"
+        android:backgroundTint="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp"
+        android:padding="12dp" />
+
+</LinearLayout>
