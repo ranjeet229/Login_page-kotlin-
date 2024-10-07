@@ -16,28 +16,28 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_login_page)
+        setContentView(R.layout.activity_spinner)
 
-        var usernameField = findViewById<EditText>(R.id.txtusername)
-        var passwordField = findViewById<EditText>(R.id.txtpass)
-        var loginButton = findViewById<Button>(R.id.loginButton)
-
-        loginButton.setOnClickListener {
-            var username = usernameField.text.toString()
-            var password = passwordField.text.toString()
-
-
-            if (username.isNotEmpty() && password.isNotEmpty()) {
-                //Toast.makeText(this, "Login Successfully", Toast.LENGTH_LONG).show()
-//                var a = usernameField.text.toString()
-//                textView1.text=a
-
-                val intent = Intent(this, homePage::class.java)
-                startActivity(intent)
-            }else{
-                Toast.makeText(this, "please fill all fields", Toast.LENGTH_LONG).show()
-            }
-        }
+//        var usernameField = findViewById<EditText>(R.id.txtusername)
+//        var passwordField = findViewById<EditText>(R.id.txtpass)
+//        var loginButton = findViewById<Button>(R.id.loginButton)
+//
+//        loginButton.setOnClickListener {
+//            var username = usernameField.text.toString()
+//            var password = passwordField.text.toString()
+//
+//
+//            if (username.isNotEmpty() && password.isNotEmpty()) {
+//                //Toast.makeText(this, "Login Successfully", Toast.LENGTH_LONG).show()
+////                var a = usernameField.text.toString()
+////                textView1.text=a
+//
+//                val intent = Intent(this, homePage::class.java)
+//                startActivity(intent)
+//            }else{
+//                Toast.makeText(this, "please fill all fields", Toast.LENGTH_LONG).show()
+//            }
+//        }
 
 
 

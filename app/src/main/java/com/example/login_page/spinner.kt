@@ -13,7 +13,7 @@ class spinner : AppCompatActivity() {
 
         val spinner1 = findViewById<Spinner>(R.id.spinner)
 
-        val spinnerList = listOf("Apple", "Mango", "Jerry")
+        val spinnerList = listOf("English","Hindi","Marathi","French","spanish")
         val arrayAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, spinnerList)
 
         arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)

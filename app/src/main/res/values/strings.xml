@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">login_page</string>
+        <string name="app_name" translatable="false">Registration</string>
+        <string-array name="courses_array">
+            <item>Computer Science</item>
+            <item>Mechanical Engineering</item>
+            <item>Electrical Engineering</item>
+            <item>Chemical Engineering</item>
+            <item>Other</item>
+        </string-array>
+    <string name="firstName"> First name</string>
+    <string name="secondName"> Last name</string>
+    <string name="Regno"> Reg no.</string>
+    <string name="Section"> Section</string>
+
 </resources>
