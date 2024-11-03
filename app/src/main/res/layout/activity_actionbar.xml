@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actionbar">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="24dp"
+        android:background="#4CAF50"
+        >
+
+    <ImageView
+        android:id="@+id/imgrelative"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/img_3"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/txtrelative"
+        android:layout_marginRight="99dp"
+        />
+
+        <TextView
+            android:id="@+id/txtrelative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            />
+
+        <ImageView
+            android:id="@+id/img2relative"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="99dp"
+            android:layout_toRightOf="@+id/txtrelative"
+            android:src="@drawable/img" />
+
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnrelative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#339AC8"
+        android:layout_below="@+id/relativelayout"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="click"
+        android:textColor="@color/white"
+        android:elevation="10dp"
+        />
+
+</RelativeLayout>

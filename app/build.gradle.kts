@@ -7,6 +7,10 @@ android {
     namespace = "com.example.login_page"
     compileSdk = 34
 
+    buildFeatures{
+        viewBinding=true
+    }
+
     defaultConfig {
         applicationId = "com.example.login_page"
         minSdk = 24
